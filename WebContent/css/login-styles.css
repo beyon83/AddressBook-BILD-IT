@@ -1,0 +1,189 @@
+@CHARSET "ISO-8859-1";
+
+html body {
+	background-color: #f2f2f2;
+}
+
+.container-fluid {
+	background-color: black;
+	border-radius: 0px;
+}
+
+.navbar li a {
+	color: white;
+/*	font-family: 'Open sans condensed', serif; */
+	font-size: 14px;
+/*	font-weight: bold; */
+}
+
+.navbar-brand {
+/*	font-family: 'Open Sans Condensed'; */
+	font-size: 16px;
+	color: #e3e3e3;
+
+}
+
+.form-container {
+	width: 400px;
+	margin-left: 25px;
+/*	font-family: 'Slabo 27px', serif; */
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #815c48;
+	background-color: white;
+	margin: auto;
+	margin-top: 100px;
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 0 2px 25px #686868;
+}
+
+.form-container h4 {
+	color: black;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.form-group input {
+	background-color: white;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	box-shadow: none;
+	transition: none;
+}
+
+.form-group .btn-block {
+	height: 40px;
+	font-size: 16px;
+}
+
+#separation-line {
+	border: 1px solid #f6f6f6;
+	margin-bottom: 10px;
+}
+
+.nav {
+/*	border: 1px solid red; */ 
+/*	width: 600px; */
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#logged-in-user {
+	color: white;
+/*	border: 1px solid red; */	
+	float: right;
+	top: 3px;
+	text-decoration: none;
+}
+
+.logged-user a {
+/*	float: right; */
+	position: relative;
+	display: block;
+	padding: 10px 15px; 
+}
+
+.logged-user img {
+	position: relative;
+	right: 5px;
+	bottom: 1px;
+}
+
+#img-icon {
+	position: relative;
+	right: 5px;
+	bottom: 1px;
+}
+
+/* Bootstrap table for displaying contacts */
+.table th {
+	
+}
+
+.container {
+	background-color: white;
+}
+
+.container h3 {
+	font-family: 'Slabo 27px';
+}
+
+.container p {
+	font-family: 'Slabo 27px';
+	font-size: 16px;
+}
+
+.container a {
+	text-decoration: underline;
+}
+
+.account-container {
+	background-color: white;
+	padding: 20px;
+	margin: 50px;
+}
+
+.account-container h3 {
+	font-family: 'Slabo 27px';
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 25px;
+	margin-top: 0px;
+}
+
+.account-info {
+	
+}
+
+.account-info p {
+	font-weight: bold;
+	font-family: 'Helvetica';
+	font-size: 14px;
+}
+
+.account-info span {
+	font-weight: normal;
+	font-family: 'Slabo 27px';
+	font-size: 17px;
+}
+
+#sep-line {
+	border: 1px solid #f6f6f6;
+	margin-bottom: 10px;
+}
+
+#edit-info {
+	padding: 10px;
+/*	border: 1px solid red; */
+	position: relative;
+	top: 5px;
+}
+
+#edit-info .btn {
+	position: relative;
+	float: left;
+	bottom: 17px;
+	right: 10px;
+	margin-right: 10px;
+}
+
+/* Bootstrap Search field */
+.row .form-control {
+	border: 1px solid black;
+	color: white;
+	font-family: 'Slabo 27px';
+	font-size: 16px;
+}
+
+.row .btn {
+	border: none !important;
+	background-color: #2d2d2d;
+}
+
+.row {
+	position: relative;
+	float: right;
+}
+
